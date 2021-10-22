@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0ea3ff !important;
+}
+
+.web-content{
+  width:98%;
+  margin:1%;
+  height:98%;
+  -webkit-border-radius: 50px; 
+border-radius: 50px; 
+background: #0aa0ff;
+-webkit-box-shadow: 12px 12px 42px #098bde,
+-12px -12px 42px #0bb5ff;
+box-shadow: 12px 12px 42px #098bde,
+-12px -12px 42px #0bb5ff;
+}
+/* Style the header */
+header {
+
+  border-radius: 50px;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.header-2{
+  border-radius: 30px; 
+  background: linear-gradient(145deg, #0babff, #0990e6);
+  box-shadow:  20px 20px 60px #0988d9,
+               -20px -20px 60px #0cb8ff;
+               font-size:15px;
+               text-align: left;
+               height: 110px;
+    margin-top: 20px!important;
+    margin: 20px;
+    padding-top: 5px;
+}
+.header-2 ul#menu li {
+  display:inline;
+  margin:20px;
+  text-align: left;
+}
+.header-2 .row{margin:20px}
+.my-photo{
+  width:150px;
+  height:150px;
+  margin-left: 30px;
+  -webkit-border-radius: 102px; 
+border-radius: 102px; 
+
+background-color: #dddde6;
+background: #0aa0ff;
+-webkit-box-shadow: 12px 12px 42px #098bde,
+-12px -12px 42px #0bb5ff;
+box-shadow: 12px 12px 42px #098bde,
+-12px -12px 42px #0bb5ff;
+       
+}
+.my-photo img{
+  width:80%;
+  margin:10%;
+  border-radius: 100px; 
+  background: #0aa0ff;
+  -webkit-box-shadow: 12px 12px 42px #098bde,
+  -12px -12px 42px #0bb5ff;
+  box-shadow: 12px 12px 42px #098bde,
+  -12px -12px 42px #0bb5ff;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li
+{
+  border-radius: 50px;
+  width:200px;
+  height:50px;
+margin:25px;
+padding-top:15px;
+  border-radius: 50px;
+  background: #0aa0ff;
+  -webkit-box-shadow: 12px 12px 42px #098bde,
+  -12px -12px 42px #0bb5ff;
+  box-shadow: 12px 12px 42px #098bde,
+  -12px -12px 42px #0bb5ff;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;;
+}
+
+video{
+  border-radius: 30px;
+  background: #0aa0ff;
+  background: linear-gradient(145deg, #0babff, #0990e6);
+  box-shadow:  20px 20px 60px #0988d9,
+               -20px -20px 60px #0cb8ff; 
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 500px; /* only for demonstration, should be removed */
+
+}
+.about-us{
+  color:white;
+}
+.about-us .col-sm{
+  margin:20px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #0babff, #0990e6);
+  box-shadow:  20px 20px 60px #0988d9,
+               -20px -20px 60px #0cb8ff;
+}
+
+
+.about-us .card-header {
+ 
+    background-color:transparent !important; 
+     border-bottom: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+ 
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.awssld__content {
+   background-color:transparent !important;
+}
+.projects-slider{
+
+  --slider-height-percentage: 500px !important;
+  --slider-transition-duration: 575ms !important;
+  --organic-arrow-thickness: 4px !important;
+  --organic-arrow-border-radius: 17px !important;
+  --organic-arrow-height: 17px !important;
+  --organic-arrow-color: #f0e5e5 !important;
+  --control-button-width: 10% !important;
+  --control-button-height: 28% !important;
+  --control-button-background: transparent !important;
+  --control-bullet-color: #ffffff !important;
+  --control-bullet-active-color: #fff6f6 !important;
+  --loader-bar-color: #851515 !important;
+  --loader-bar-height: 2px !important;
+  height: 600px !important;
+  margin-top: -50px !important;
+  }
+  .projects .container{
+    margin: 80px !important;
+    margin-top: -20px !important;
+    width: 1100px !important;
+    color:white;
+  }
+  .projects .col-sm{
+    margin:20px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #0babff, #0990e6);
+    box-shadow:  20px 20px 60px #0988d9,
+                 -20px -20px 60px #0cb8ff;
+  }
+  .projects .card-header{
+    background: transparent !important;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.125) !important;
+  }
+  .worked-at .card{
+    margin:20px;
+    background: transparent;
+    color:white;
+    border: 0px solid rgba(0, 0, 0, 0.125) !important;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #0babff, #0990e6);
+    box-shadow:  20px 20px 60px #0988d9,
+                 -20px -20px 60px #0cb8ff;
+
+  }
+  .worked-at .col-sm{
+    margin:20px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #0babff, #0990e6);
+    box-shadow:  20px 20px 60px #0988d9,
+                 -20px -20px 60px #0cb8ff;
+  }
+  .worked-at .card-header {
+    font-size: 15px;
+    background-color:transparent !important; 
+     border-bottom: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+.worked-at p{
+  font-size: 18px;
+}
+.worked-at .blockquote-footer{
+
+font-size: 12px !important;
+color:white !important;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
